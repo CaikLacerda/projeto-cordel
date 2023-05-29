@@ -39,8 +39,10 @@ main {
     font-size: 2em;
 }
 
-main section {
+section {
     margin: 50px 0px 80px 60px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 
