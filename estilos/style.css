@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
+:root {
+    --fonte-escrita: 'Sriracha', cursive;
+    --fonte-texto: Verdana, serif;
+    --fonte-destaque: 'Passion One', Verdana, serif;
+}
 
 
 * {
@@ -15,13 +20,13 @@ header {
 }
 
 header h1 {
-    font-family: 'Passion One', serif;
+    font-family: var(--fonte-destaque);
     font-size: 4em;
     padding-top: 80px;
 }
 
 header p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 header a{
@@ -35,7 +40,7 @@ header a:hover {
 }
 
 main {
-    font-family: 'Sriracha', cursive;
+    font-family: var(--fonte-escrita);
     font-size: 2em;
 }
 
@@ -95,7 +100,7 @@ footer {
     background-color: black;
     text-align: center;
     font-size: .6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte-texto);
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
