@@ -40,7 +40,7 @@ main {
 }
 
 section {
-    margin: 50px 0px 80px 60px;
+    margin: 0px 0px 80px 60px;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -56,6 +56,7 @@ section {
 
 .fundojoaninha > div {
     padding: 50px 0px;
+    
 }
 
 .fundojoaninha > div > p {
@@ -66,6 +67,7 @@ section {
     margin-left: 50px;
     background-size: 200px;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
 }
 
 .fundolivro {
@@ -87,6 +89,7 @@ section {
     padding: 10px;
     margin-left: 50px;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
 }
 
 footer {
@@ -95,6 +98,8 @@ footer {
     text-align: center;
     font-size: .6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 footer a {
