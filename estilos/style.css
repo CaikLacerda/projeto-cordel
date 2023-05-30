@@ -40,7 +40,7 @@ main {
 }
 
 section {
-    margin: 0px 0px 80px 60px;
+    margin-left: 60px;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -52,22 +52,19 @@ section {
     background-position: center center;
     background-attachment: fixed;
     margin: 0px;
-}
-
-.fundojoaninha > div {
-    padding: 50px 0px;
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .fundojoaninha > div > p {
     padding: 10px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 0, 0, 0.377);
     color: white;
     margin-left: 50px;
     background-size: 200px;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
 }
 
 .fundolivro {
@@ -76,11 +73,12 @@ section {
     background-position: center center;
     background-attachment: fixed;
     margin: 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .fundolivro > div {
     color: white;
-    padding: 50px 0px;
 }
 
 .fundolivro > div > p {
